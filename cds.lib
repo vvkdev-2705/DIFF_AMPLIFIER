@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/vlsilab/cds.lib
+DEFINE Differential_Amp /home/vlsilab/Project_300/DIFF_AMPLIFIER/Differential_Amp

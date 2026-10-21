@@ -1,0 +1,34 @@
+# Exclude DRC and LVS run artifacts
+drc.*
+lvs.*
+
+# Keep summary reports
+!drc.sum
+!lvs.sum
+
+# Exclude Cadence logs and run folders
+libManager.log*
+oasisOut.log
+qrc.lvs.log
+jobs/
+logs_vlsilab/
+lvs/
+*.lvsdb
+*.cdslck*
+
+# Exclude Assura / QRC / DRC temporary run states
+.*.run
+.assura*
+.cadence/
+.cds_assuraui
+.*.state
+qrc.lvs.ccl
+
+# Exclude macOS metadata and backup files
+.DS_Store
+*%
+
+# Exclude Cadence Maestro simulation log and result databases
+*.log
+*.msg.db
+*.rdb
